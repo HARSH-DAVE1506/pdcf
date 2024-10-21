@@ -197,7 +197,7 @@ def main():
     parser.add_argument('--bodyparts', help='Color by bodyparts', action='store_true')
     args = parser.parse_args()
 
-    default_model = 'models/bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
+    default_model = 'bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
     model = args.model if args.model else default_model
     print('Model: {}'.format(model))
 
