@@ -197,7 +197,7 @@ class PoseTracker:
         return int_img
 
 def main():
-    model = 'models/bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
+    model = 'bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
     print('Model: {}'.format(model))
 
     engine = PoseEngine(model)
