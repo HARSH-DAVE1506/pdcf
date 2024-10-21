@@ -187,7 +187,7 @@ class PoseTracker:
 
 def main():
     # Hardcoded parameters
-    model = 'models/bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
+    model = 'bodypix_mobilenet_v1_075_640_480_16_quant_decoder_edgetpu.tflite'
     mirror = True
     width = 640
     height = 480
